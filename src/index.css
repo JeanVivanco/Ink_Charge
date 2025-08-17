@@ -1,0 +1,364 @@
+.hero {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #264653; /* Azul petróleo */
+}
+
+.hero .carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero .carousel-inner,
+.hero .carousel-item,
+.hero .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  color: #F6F7F7; /* Fondo claro */
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(38, 70, 83, 0.6); /* Azul petróleo oscuro */
+  z-index: 1;
+}
+
+.hero h5 {
+  color: #2A9D8F; /* Verde menta */
+}
+
+.hero h1 {
+  color: #FFFFFF; /* Blanco */
+  font-weight: bold;
+}
+
+.hero p {
+  color: #E9C46A; /* Amarillo suave */
+}
+
+.hero .btn-primary {
+  background-color: #E76F51; /* Terracota */
+  border-color: #E76F51;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.hero .btn-primary:hover {
+  background-color: #F4A261; /* Naranja suave */
+  border-color: #E76F51;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #264653; /* Azul petróleo */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #F6F7F7 !important; /* Fondo claro */
+}
+
+.nav-link:hover {
+  color: #2A9D8F !important; /* Verde menta */
+}
+
+/* Servicios */
+.servicios {
+  background-color: #eeeeee; /* Fondo claro */
+  color: #264653; /* Azul petróleo */
+}
+
+.card {
+  border: 1px solid #2A9D8F; /* Verde menta */
+  background: #b3adad;
+  color: #264653; /* Azul petróleo */
+}
+
+.Cartuchos {
+  background-image: url(/Ink-charge/public/TINTA-DE-IMPRESORA-EPSON-504-5-600x600.jpg);
+}
+
+.card-title {
+  color: #2A9D8F; /* Verde menta */
+}
+
+.card img {
+  max-width: 100px;
+}
+
+/* Footer viejo */
+footer {
+  background-color: #264653; /* Azul petróleo */
+  color: #F6F7F7;
+}
+
+footer a {
+  color: #E9C46A; /* Amarillo suave */
+}
+
+footer a:hover {
+  color: #E76F51; /* Naranja suave */
+}
+
+/* Animación Pulse */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(233, 196, 106, 0.7); /* Amarillo pulse */
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 15px rgba(233, 196, 106, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(233, 196, 106, 0);
+  }
+}
+
+/* Botón flotante WhatsApp */
+.float-wa {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #2A9D8F; /* Verde menta */
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+
+.float-wa i {
+  font-size: 28px;
+}
+
+/* Mapa */
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #F6F7F7;
+}
+
+.map-container iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #2A9D8F; /* Verde menta */
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+.top-bar a {
+  color: #ffffff;
+}
+
+.top-bar a:hover {
+  color: #E9C46A;
+}
+
+/* Navbar Logo Image */
+.logo img {
+  height: 40px;
+}
+
+/* ============================== */
+/* Footer nuevo en 3 columnas     */
+/* ============================== */
+.footer {
+  background-color: #264653; /* Azul petróleo */
+  color: #F6F7F7; /* Blanco suave */
+  padding: 50px 20px 20px 20px;
+}
+.footer img {
+  width: 120px;   /* ancho fijo */
+  height: auto;  /* mantiene proporción */
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2A9D8F; /* Verde menta */
+}
+
+.footer a {
+  color: #E76F51; /* Amarillo suave */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #F4A261; /* Naranja suave */
+}
+
+/* Redes sociales (WhatsApp y TikTok) */
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.footer .social-links a {
+  background-color: #2A9D8F; /* Verde menta */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.footer .social-links a img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer .social-links a:hover {
+  background-color: #E76F51; /* Terracota */
+  transform: scale(1.1);
+}
+
+/* Contacto */
+.footer .contact-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #F6F7F7;
+}
+
+.footer .contact-info span {
+  font-weight: bold;
+  color: #E9C46A;
+}
+
+/* Navegación */
+.footer nav {
+  display: flex;
+  flex-direction: column; /* Columna */
+  align-items: flex-start; /* Alineados a la izquierda */
+  gap: 8px; /* Espaciado entre enlaces */
+}
+
+.footer nav a {
+  display: block;
+}
+
+
+/* Responsive en pantallas grandes */
+@media (min-width: 768px) {
+  .footer .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+
+  .footer .social-links {
+    justify-content: flex-start;
+  }
+
+  .footer nav {
+    justify-content: center;
+  }
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+}
+
+        .servicios-box {
+          background: #fff;
+          border-radius: 12px;
+          
+        }
+    
+        .servicios-box .col-md-6 {
+          border: 1px solid #eee;
+          padding: 15px;
+          
+        }
+    
+        .servicios-box .col-md-6:nth-child(1),
+        .servicios-box .col-md-6:nth-child(2) {
+          border-bottom: none;
+          
+        }
+    
+        .servicios-box .col-md-6:nth-child(1),
+        .servicios-box .col-md-6:nth-child(3) {
+          border-right: none;
+          
+        }
+    
+        .servicios-info {
+
+          background: #f9fafc;
+          border-radius: 12px;
+        }
+        h3{
+          color: #2A9D8F;
+        }
+        p{
+          color: #E76F51;
+        }
+                    /* Animación */
+                    .animate-on-scroll {
+                      opacity: 0;
+                      transform: translateY(80px);
+                      /* empieza abajo */
+                      transition: all 0.8s ease-out;
+                    }
+          
+                    .animate-on-scroll.show {
+                      opacity: 1;
+                      transform: translateY(0);
+                      /* sube a su lugar */
+                    }
