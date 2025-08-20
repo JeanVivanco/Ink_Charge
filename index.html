@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,33 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./src/index.css">
+  <style>
+    /* Paleta de colores para text-blue */
+    .text-blue {
+      color: #0066CC !important;
+    }
+
+    /* Azul medio */
+    .text-blue-dark {
+      color: #1B3B6F !important;
+    }
+
+    /* Azul oscuro */
+    .text-blue-light {
+      color: #3399FF !important;
+    }
+
+    /* Azul celeste */
+    .text-gray-dark {
+      color: #333333 !important;
+    }
+
+    /* Gris oscuro */
+  </style>
 </head>
+
 <body>
   <div class="main-content">
-    <div class="top-bar">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <div>
-         <a href="https://www.tiktok.com/@Ink_Charge" target="_blank">
-  <img src="./public/tiktok (1).png" 
-       alt="TikTok" 
-       width="20" 
-       height="20" 
-       style="cursor:pointer;">
-</a>
-
-          </div>
-          <div>
-            <a href="https://wa.me/5930994863616?text=Hola" target="_blank" >
-              <i class="fa fa-whatsapp"></i> 099 486 3616
-            </a>
-            <a href="#" ><img src="./public/1 (1).webp" alt="" srcset=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -41,7 +43,8 @@
             <img src="./public/logo2.png" alt="Ink Charge Logo" class="mr-2" style="height: 40px;">
             <a class="navbar-brand" href="#">Ink Charge</a>
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -60,13 +63,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
 
     <section class="hero text-center py-5">
       <div id="heroCarousel" class="carousel slide" data-ride="carousel">
@@ -78,188 +80,279 @@
             <img src="./public/carruzel2.webp" alt="Servicio Ink Charge 2" class="img-fluid">
           </div>
           <div class="carousel-item">
-            <img src="./public/Sabes-como-instalar-camaras-de-circuito-cerrado1.jpg" alt="Servicio Ink Charge 3" class="img-fluid">
+            <img src="./public/Sabes-como-instalar-camaras-de-circuito-cerrado1.jpg" alt="Servicio Ink Charge 3"
+              class="img-fluid">
           </div>
         </div>
         <div class="hero-overlay"></div>
       </div>
       <div class="container">
-        <h5 class="text-warning">TECNOLOGÍA QUE TE RESPALDA</h5>
-        <h1 class="text-white">Impresiones seguras <br>resultados confiables</h1>
-        <p class="text-light">Cartuchos de tinta, cámaras de seguridad e impresoras. Servicios confiables para empresas y hogares.</p>
-        <a href="#contacto" class="btn btn-success">Solicita tu servicio</a>
+        <h5 class="">TECNOLOGÍA QUE TE RESPALDA</h5>
+        <h1 class="">Impresiones seguras <br>resultados confiables</h1>
+        <p class="">Cartuchos de tinta, cámaras de seguridad e impresoras. Servicios confiables para empresas
+          y hogares.</p>
+<button type="button" class="btn btn-outline-primary" style="color: rgb(27, 42, 207); border-radius: 10px; background-color: rgb(132, 128, 128);">Solicita Tu Servicio</button>
       </div>
     </section>
 
-
-  <section id="servicios" class="servicios py-5">
-    <div class="container">
-      <h2 class="text-center mb-4" id="nuestro">Nuestros Servicios</h2>
-      <div class="row">
-    
-        <div class="col-md-6">
-          <div class="servicios-box shadow-sm p-4">
-            <div class="row">
-              <div class="col-md-6 text-center mb-4">
-                <a href="/cartuchos-de-tinta">
-                  <img src="./public/cartucho-de-tinta (1).png" alt="Icono de cartucho de tinta" class="mb-3"
-                    style="max-width: 80px;">
-                </a>
-                <h3 class="h5">Cartuchos de Tinta</h3>
-                <p>Venta de cartuchos originales y compatibles de alta calidad.</p>
-              </div>
-              <div class="col-md-6 text-center mb-4">
-                <a href="/instalacion-de-camaras">
-                  <img src="./public/camara-de-seguridad (1).png" alt="Icono de cámara de seguridad" class="mb-3"
-                    style="max-width: 80px;">
-                </a>
-                <h3 class="h5">Instalación de Cámaras</h3>
-                <p>Protege tu negocio y hogar con cámaras de seguridad profesionales.</p>
-              </div>
-              <div class="col-md-6 text-center mb-4">
-                <a href="/mantenimiento-de-impresoras">
-                  <img src="./public/73997.png" alt="Icono de impresora" class="mb-3" style="max-width: 80px;">
-                </a>
-                <h3 class="h5">Mantenimiento de Impresoras</h3>
-                <p>Reparación, limpieza y actualización de firmware para mantener tu impresora en perfecto estado.</p>
-              </div>
-              <div class="col-md-6 text-center mb-4">
-                <a href="/mantenimiento-de-laptops">
-                  <img src="./public/73997.png" alt="Icono de laptop" class="mb-3" style="max-width: 80px;">
-                </a>
-                <h3 class="h5">Mantenimiento de Laptops</h3>
-                <p>Reparación, limpieza y actualización de software para que tu laptop funcione como nueva.</p>
+    <section id="servicios" class="servicios py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 text-blue-dark" id="nuestro">Nuestros Servicios</h2>
+        <p class="container; text-gray-dark" style="text-align: center;">Tiramos la casa por la ventana, por la adquisicion de uno de nuestros servicios te llevas unas resma de hojas gratis 😉</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="servicios-box shadow-sm p-4">
+              <div class="row">
+                <div class="col-md-6 text-center mb-4">
+                  <a href="/cartuchos-de-tinta">
+                    <img src="./public/cartucho-de-tinta (1).png" alt="Icono de cartucho de tinta" class="mb-3"
+                      style="max-width: 80px;">
+                  </a>
+                  <h3 class="h5 text-blue">Cartuchos de Tinta</h3>
+                  <p class="text-gray-dark">Venta de cartuchos originales y compatibles de alta calidad.</p>
+                </div>
+                <div class="col-md-6 text-center mb-4">
+                  <a href="/instalacion-de-camaras">
+                    <img src="./public/camara-de-seguridad (1).png" alt="Icono de cámara de seguridad" class="mb-3"
+                      style="max-width: 80px;">
+                  </a>
+                  <h3 class="h5 text-blue">Instalación de Cámaras</h3>
+                  <p class="text-gray-dark">Protege tu negocio y hogar con cámaras de seguridad profesionales.</p>
+                </div>
+                <div class="col-md-6 text-center mb-4">
+                  <a href="/mantenimiento-de-impresoras">
+                    <img src="./public/73997.png" alt="Icono de impresora" class="mb-3" style="max-width: 80px;">
+                  </a>
+                  <h3 class="h5 text-blue">Mantenimiento de Impresoras</h3>
+                  <p class="text-gray-dark">Reparación, limpieza y actualización de firmware para mantener tu impresora
+                    en perfecto estado.</p>
+                </div>
+                <div class="col-md-6 text-center mb-4">
+                  <a href="/mantenimiento-de-laptops">
+                    <img src="./public/ordenador-portatil.png" alt="Icono de laptop" class="mb-3"
+                      style="max-width: 80px;">
+                  </a>
+                  <h3 class="h5 text-blue">Mantenimiento de Laptops</h3>
+                  <p class="text-gray-dark">Reparación, limpieza y actualización de software para que tu laptop funcione
+                    como nueva.</p>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-12 col-md-6">
+            <div class="servicios-info shadow-sm p-4 h-100 d-flex flex-column justify-content-center animate-on-scroll">
+              <h3 class="text-blue-dark">Mantenimiento de Impresoras & Laptops en Guayaquil Ecuador</h3>
+              <p class="text-gray-dark">
+                En nuestra empresa entendemos que buscas calidad, confianza y respaldo. Por eso, ponemos a tu
+                disposición más de
+                10 años de experiencia ofreciendo un servicio impecable. Nos especializamos en soporte técnico,
+                mantenimiento y
+                reparación de equipos de oficina, atendiendo en Guayaquil. Y lo mejor: contamos con servicio a domicilio
+                para tu
+                mayor comodidad. <strong>Ink Charge</strong> tiene la solución que buscas para que tu equipo vuelva a
+                funcionar al
+                100%.
+              </p>
+              <button type="button" class="btn btn-outline-primary" style="color: rgb(27, 42, 207); border-radius: 10px; background-color: rgb(132, 128, 128);">+ 🛠️Servicios</button>
+            </div>
+          </div>
         </div>
-  
-     
-<div class="col-md-6">
-  <div class="servicios-info shadow-sm p-4 h-100 d-flex flex-column justify-content-center animate-on-scroll"
-    style="background-image: url(./public/computer-663396_1280.jpg); background-size: cover; background-position: center; border-radius: 10px;">
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const elements = document.querySelectorAll(".animate-on-scroll");
 
-    <h3 style="color: rgb(23, 135, 123)">Mantenimiento de Impresoras & Laptops en Guayaquil Ecuador</h3>
-    <p style="color: rgb(210, 25, 50);">
-      En nuestra empresa entendemos que buscas calidad, confianza y respaldo. Por eso, ponemos a tu disposición más de
-      10 años de experiencia ofreciendo un servicio impecable. Nos especializamos en soporte técnico, mantenimiento y
-      reparación de equipos de oficina, atendiendo en Guayaquil. Y lo mejor: contamos con servicio a domicilio para tu
-      mayor comodidad. <strong>Ink Charge</strong> tiene la solución que buscas para que tu equipo vuelva a funcionar al
-      100%.
-    </p>
-  </div>
-</div>
-<script>
-  // animacion js
-  document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll(".animate-on-scroll");
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach(entry => {
+                const ratio = entry.intersectionRatio; // Cuánto porcentaje está visible
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show"); 
-          } else {
-            entry.target.classList.remove("show"); 
+                if (ratio > 0.3) {
+                  // Cuando entra al rango (más del 30% visible)
+                  entry.target.classList.remove("exit");
+                  entry.target.classList.add("show");
+                } else if (ratio < 0.1) {
+                  // Cuando sale casi totalmente (menos del 10% visible)
+                  entry.target.classList.remove("show");
+                  entry.target.classList.add("exit");
+                }
+              });
+            },
+            {
+              threshold: Array.from({ length: 101 }, (_, i) => i / 100), // Detecta cualquier porcentaje
+              rootMargin: "0px 0px -100px 0px" // Ajusta el margen inferior para que "salga" un poco antes
+            }
+          );
+
+          elements.forEach(el => observer.observe(el));
+
+          // Reinit observer on resize/orientation change
+          function reinitObserver() {
+            elements.forEach(el => el.classList.remove("show", "exit"));
+            observer.disconnect();
+            elements.forEach(el => observer.observe(el));
           }
-        });
-      },
-      { threshold: 0.7 } 
-    );
 
-    elements.forEach(el => observer.observe(el));
-  });
-</script>
+          window.addEventListener("resize", reinitObserver);
+          window.addEventListener("orientationchange", reinitObserver);
+        });
+      </script>
+
+    </section>
+<!-- Sección de Productos -->
+<section id="productos" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 text-blue-dark">Productos con los que contamos</h2>
+    <div id="productosCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row text-center animate-on-scroll">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./public/Productos/tablet.jpg" class="card-img-top mx-auto d-block" alt="Producto 1"
+                  style="max-width:200px; height:auto;margin-top: 12px;">
+                <div class="card-body">
+                  <h5 class="card-title; text-blue">Laptop</h5>
+                  <p class="card-text; text-gray-dark" >Giratoria core i7, 7ma generacion, 8gb ram, tactil </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./public/Productos/Imagen de WhatsApp 2025-08-16 a las 20.55.07_a5bad612.jpg" class="card-img-top mx-auto d-block" alt="Producto 2"
+                  style="max-width:200px; height:auto; margin-top: 12px;">
+                <div class="card-body">
+                  <h5 class="card-title; text-blue" >Laptop Dell 5400</h5>
+                  <p class="card-text; text-gray-dark">Core i5, 8va generacion, 8gb ram, disco de 256gb </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./public/Productos/mantenimiento impresora.jpg" class="card-img-top mx-auto d-block" alt="Producto 3"
+                  style="max-width:200px; height:auto;margin-top: 12px;">
+                <div class="card-body">
+                  <h5 class="card-title; text-blue">Impresora</h5>
+                  <p class="card-text; text-gray-dark">Servicio tecnico de mantenimiento, Recarga de toner & venta de toner suministros</p>
+                </div>
+              </div>
+            </div>
+          </div>
+<div class="contenedor">
+  <button type="button" class="btn btn-outline-primary" style="color: rgb(27, 42, 207); 
+                 border-radius: 10px; 
+                 background-color: rgb(132, 128, 128);">
+    Ver Catálogo
+  </button>
+</div>
+
+        </div>
+
+        <!-- Slide 2 -->
+
+        <!-- Puedes agregar más slides con 3 productos cada una -->
 
       </div>
     </div>
-    
-  </section>
-<div>
-  <h1 style="text-align: center; color: rgb(23, 135, 123);">Resultados En Nuestro Perfil</h1>
-
-  <!-- Contenedor para alinear en fila -->
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-
-
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ink_charge/video/7497420426474310917"
-      data-video-id="7497420426474310917" data-embed-from="embed_page" style="max-width: 300px; min-width: 250px;">
-      <section>
-        <a target="_blank" title="@ink_charge" href="https://www.tiktok.com/@ink_charge?refer=embed">@ink_charge</a>
-        <p>Repara tu maquina ✨✨ 🇪🇨Guayaquil🇪🇨</p>
-      </section>
-    </blockquote>
-
   </div>
-
-  <script async src="https://www.tiktok.com/embed.js"></script>
-</div>
+</section>
 
 
-
-
+      <!-- Controles del carrusel -->
+      <a class="carousel-control-prev" href="#productosCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#productosCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+</section>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".animate-on-scroll");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.intersectionRatio > 0.3) {
+            entry.target.classList.add("show");
+          } else if (entry.intersectionRatio < 0.1) {
+            entry.target.classList.remove("show");
+          }
+        });
+      },
+      { threshold: Array.from({ length: 101 }, (_, i) => i / 100), rootMargin: "0px 0px -100px 0px" }
+    );
+    elements.forEach(el => observer.observe(el));
+  });
+</script>
+    <div>
+      <h1 style="text-align: center; color: rgb(23, 135, 123);">Resultados En Nuestro Perfil</h1>
+      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ink_charge/video/7497420426474310917"
+          data-video-id="7497420426474310917" data-embed-from="embed_page" style="max-width: 300px; min-width: 250px;">
+          <section>
+            <a target="_blank" title="@ink_charge" href="https://www.tiktok.com/@ink_charge?refer=embed">@ink_charge</a>
+            <p>Repara tu maquina ✨✨ 🇪🇨Guayaquil🇪🇨</p>
+          </section>
+        </blockquote>
+      </div>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
     <section id="ubicacion" class="py-5">
       <div class="container">
-        <h2 class="text-center mb-4">Nuestra Ubicación</h2>
+        <h2 class="text-center mb-4 text-blue-dark">Nuestra Ubicación</h2>
         <div class="map-container">
-          <iframe
-            src="https://www.google.com/maps?q=-2.1225,-79.89633&hl=es&z=15&output=embed"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
+          <iframe src="https://www.google.com/maps?q=-2.1225,-79.89633&hl=es&z=15&output=embed" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
       </div>
     </section>
-
-
   </div>
   <footer class="footer">
-  <div class="footer-container">
-
-    <div>
-      <img src="./public/carruzel1.1.png" alt="Logo InkCharge" class="w-24 mx-auto mb-4">
-      <div class="social-links">
-        <a href="https://wa.me/5930994863616" target="_blank">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-        </a>
-        <a href="https://www.tiktok.com/@Ink_Charge" target="_blank">
-          <img src="./public/tiktok (1).png" alt="TikTok">
-        </a>
+    <div class="footer-container">
+      <div>
+        <img src="./public/carruzel1.1.png" alt="Logo InkCharge" class="w-24 mx-auto mb-4">
+        <div class="social-links">
+          <a href="https://wa.me/5930994863616" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+          </a>
+          <a href="https://www.tiktok.com/@Ink_Charge" target="_blank">
+            <img src="./public/tiktok (1).png" alt="TikTok">
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3>Navegación</h3>
+        <nav class="">
+          <a href="#inicio">🏠Inicio</a>
+          <a href="#servicios">🛠️Servicios</a>
+          <a href="#productos">👜Productos</a>
+          <a href="#contacto">📱Contacto</a>
+        </nav>
+      </div>
+      <div class="contact-info">
+        <h3>Contáctanos</h3>
+        <p>📞 Llámanos al <span>+593 099 486 3616</span></p>
+        <p>📧 <a href="mailto:contacto@inkcharge.com">rogensreinons@gmail.com</a></p>
+        <p>📍 Cerca de V4F3+RWW Farmacias Santa Martha, Guayaquil 090506 Ecuador</p>
       </div>
     </div>
-
-    <div>
-      <h3>Navegación</h3>
-      <nav class="">
-        <a href="#inicio">🏠Inicio</a>
-        <a href="#servicios">🛠️Servicios</a>
-        <a href="#productos">👜Productos</a>
-        <a href="#contacto">📱Contacto</a>
-      </nav>
+    <div class="footer-bottom">
+      &copy; 2025 Ink Charge - Todos los derechos reservados
     </div>
-
-    <div class="contact-info">
-      <h3>Contáctanos</h3>
-      <p>📞 Llámanos al <span>+593 099 486 3616</span></p>
-      <p>📧 <a href="mailto:contacto@inkcharge.com">rogensreinons@gmail.com</a></p>
-      <p>📍 Cerca de V4F3+RWW Farmacias Santa Martha, Guayaquil 090506 Ecuador</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    &copy; 2025 Ink Charge - Todos los derechos reservados
-  </div>
-</footer>
-
-
+  </footer>
   <a href="https://wa.me/5930994863616?text=Hola" class="float-wa" target="_blank">
     <i class="fa fa-whatsapp"></i>
   </a>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

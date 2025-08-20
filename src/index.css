@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   background-color: #264653; /* Azul petróleo */
-}
 
+}
 .hero .carousel {
   position: absolute;
   top: 0;
@@ -42,16 +42,24 @@
 }
 
 .hero h5 {
-  color: #2A9D8F; /* Verde menta */
+  color: #c3c3c3;
+    text-shadow:
+      3px 3px 2px #28282895,
+      -3px 3px 2px #4c4a4a,
+      -3px -3px 0 #313131a3,
+      3px -3px 0 #21202062;
 }
 
 .hero h1 {
-  color: #FFFFFF; /* Blanco */
-  font-weight: bold;
+  color: #333;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0px 4px 4px #000000;
 }
 
 .hero p {
-  color: #E9C46A; /* Amarillo suave */
+  color: #333;
+    -webkit-text-stroke: 1px #8f8f8f;
+    text-shadow: 0px 4px 4px #000000;
 }
 
 .hero .btn-primary {
@@ -362,3 +370,23 @@ footer a:hover {
                       transform: translateY(0);
                       /* sube a su lugar */
                     }
+    .animate-on-scroll {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease-in-out;
+    }
+  
+    .animate-on-scroll.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+        .contenedor {
+          display: flex;
+          justify-content: center;
+          /* centra horizontal */
+          align-items: center;
+          /* centra vertical */
+          height: 80px;
+          /* ocupa toda la pantalla */
+        }
